@@ -7,9 +7,9 @@ $(function () {
     adaptiveHeight: true,
     // mobileFirst: true,
     prevArrow:
-      '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
+      '<button type="button" class="slick-prev" aria-label="Left arrow"><img src="icons/left.svg" alt="leftArrow"></button>',
     nextArrow:
-      '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
+      '<button type="button" class="slick-next" aria-label="Right arrow"><img src="icons/right.svg" alt="rightArrow"></button>',
     // responsive: [
     //     {
     //         breakpoint: 768,
